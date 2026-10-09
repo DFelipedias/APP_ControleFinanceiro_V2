@@ -51,7 +51,7 @@ fun TelaDetalhesTransacao(navController: NavHostController, financeiro: Financei
                 if (editar) {
                     item { Campo("Descrição", descricao) { descricao = it } }
                     item { Campo("Valor", valor) { valor = it } }
-                    item { Campo("Data (dd/mm/aaaa)", data) { data = it } }
+                    item { Campo("Data (dia/mês/ano)", data) { data = it } }
                     item {
                         Botao("SALVAR ALTERAÇÕES") {
                             val numero = valor.replace(",", ".").toDoubleOrNull()

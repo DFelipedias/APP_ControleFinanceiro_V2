@@ -27,7 +27,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 val Azul = Color(0xFF2F6FE4)
 val Fundo = Color(0xFFF7F8FA)
 val Texto = Color(0xFF172033)
-val Vermelho = Color(0xFFB5232D)
+val Vermelho = Color(0xFFB52323)
 val Verde = Color(0xFF16834A)
 fun dinheiro(valor: Double) = java.text.NumberFormat.getCurrencyInstance(java.util.Locale("pt", "BR")).format(valor)
 

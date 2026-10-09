@@ -43,7 +43,7 @@ fun TelaNovaTransacao(navController: NavHostController, financeiro: FinanceiroVi
             }
             item { Campo("Valor (ex.: 38,50)", valor) { valor = it } }
             item { Campo("Descrição", descricao) { descricao = it } }
-            item { Campo("Data (dd/mm/aaaa)", data) { data = it } }
+            item { Campo("Data (dia/mês/ano)", data) { data = it } }
             item { Text("Categoria", fontWeight = FontWeight.Bold) }
             item {
                 Row(Modifier.horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
